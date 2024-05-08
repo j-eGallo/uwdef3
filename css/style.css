@@ -1107,13 +1107,13 @@ a:hover {
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 376px) {
 
 nav.transparent.active ul {
     position: fixed;
-    top: 11%;
+    margin-top: min(6%) !important;
     flex-direction: column;
-    background: none;
+    background: rgb(19 19 19 / 76%);
     width: 100%;
     text-align: center;
     transition: 0.5s;
@@ -1122,7 +1122,7 @@ nav.transparent.active ul {
 
   nav.active ul {
     position: fixed;
-    top: 9%; 
+    margin-top: min(6%) !important; 
     flex-direction: column;
     background: rgb(19 19 19);
     width: 100%;
@@ -1132,3 +1132,4 @@ nav.transparent.active ul {
 
 
 }
+
